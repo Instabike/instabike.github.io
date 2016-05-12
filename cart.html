@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" type="image/png" href="assets/img/favicon1.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>Instabike - Book a bike</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="assets/fonts/Material-Design-Icons.eot" type="text/css" media="screen">
+    <link rel="stylesheet" href="assets/fonts/Material-Design-Icons.svg" type="text/css" media="screen">
+
+	<!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/material-kit.css" rel="stylesheet"/>
+    <link href="assets/css/styles.css" rel="stylesheet"/>
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+
+	
+
+</head>
+
+<body class="index-page">
+    <!-- Navbar -->
+    <nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-index">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="http://www.instabike.in">
+                    <div class="logo-container">
+                        <div class="logo">
+                            <img src="assets/img/logo-white.png" alt="Instabike Logo" rel="tooltip" title="<b>Instabike</b> - Book a Bike" data-placement="bottom" data-html="true">
+                        </div><!-- end of logo -->
+                    </div><!-- end of logo-container -->
+                </a>
+            </div><!-- end of navbar-header -->
+            
+            <div class="collapse navbar-collapse" id="navigation-index">
+                <ul class="nav navbar-nav navbar-right" id="navbar-collapse">
+                    <li>
+                        <div class="control-group">
+                            <label class="control-label" id="options">
+                                <div class="controls">
+                                    <h5>
+                                        <select>
+                                            <option>DELHI</option>
+                                            <option>RISHIKESH</option>
+                                            <option>PANJIM</option>
+                                            <option>LEH</option>
+                                        </select>
+                                    </h5>
+                                </div><!-- end of controls -->
+                            </label>
+                        </div><!-- end of control-group -->
+                    </li>
+                    <li>
+                        <a href="contact-us.html"><h4>CONTACT US</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about-us.html"><h4>ABOUT US</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <img src="assets/img/login.png" data-toggle="modal" data-target="#login" alt="Login" rel="tooltip" title="Login / Sign-Up" data-placement="bottom">
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div><!-- end of collapse navbar-collapse -->
+        </div><!-- end of container -->
+    </nav><!-- end of navbar navbar-transparent -->
+    
+    
+    <div class="wrapper">
+        <div class="header header-filter" style="background-image:url('assets/img/background-image.png'); height:667px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2" id="wrapper-text">
+                        <div class="brand wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <h2 id="ib-font-h2">Book the best Bike trip now.</h2>
+                            
+                        </div>
+                        <div class="wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <div class="title">
+                                <h3>Pick a Date</h3>
+                            </div>                                <div class="col-md-6 col-xs-6 form-group label-static">
+                                <label class="control-label">Start Date</label>
+                                <input type="text" class="datepicker form-control">
+                            </div>
+                            <div class="col-md-6 col-xs-6 form-group label-static">
+                                <label class="control-label">End Date</label>
+                                <input type="text" class="datepicker form-control">
+                            </div>
+                            
+                        </div>
+                        <div class="col-md-8 col-md-offset-4 col-xs-8 col-xs-offset-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                            <button class="col-md-6 btn btn-instabike btn-raised" id="ib-font-h5">Search Bikes</button>
+                        </div>
+                    </div>
+                    
+                </div><!-- end of row -->
+            </div><!-- end of container -->
+        </div><!-- end of header header-filter -->        
+    </div><!-- end of wrapper -->
+    
+    <!-- Main -->
+    <div class="row" id="ib-row1">
+        <div class="col-md-7 col-xs-11">
+            <div class="main main-raised" id="ib-main">
+                <div class="section section-landing" id="ib-section">
+                    <h2 class="title text-center">Explore Bikes</h2>
+                
+                
+                    <!-- bike entry -->
+                    <div class="row" id="ib-row1">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="text-center">
+                                <img src="assets/img/4.jpg" id="ib-bike-pic">
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h2 id="ib-font-bike-name">Avenger</h2>
+                            <div class="row" id="ib-row1">
+                                <div class="col-md-7 col-xs-7" id="ib-display-1">
+                                    <div id="ib-font-bike">
+                                        <b>Price :  </b>Rs<big> 600 </big>per day
+                                    </div>
+                                </div>
+                                <div class="col-md-5 col-xs-5 text-center" id="ib-display-1">
+                                    <a href="" id="ib-font-bike">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div id="ib-count">
+                                        <div id="ib-count-box">0 
+                                        </div>
+                                    </div>
+                                    <a href="" id="ib-font-bike">
+                                        <i class="fa fa-minus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="ib-margin-top" class="text-right">
+                                <span class="label label-warning" id="ib-font-bike-available">10 left</span>
+                            </div>
+                        </div>
+                    </div><!-- end of row ib-row1 -->
+
+                    <!-- bike entry -->
+                    <div class="row" id="ib-row1">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="text-center">
+                                <img src="assets/img/4.jpg" id="ib-bike-pic">
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h2 id="ib-font-bike-name">Avenger</h2>
+                            <div class="row" id="ib-row1">
+                                <div class="col-md-7 col-xs-7" id="ib-display-1">
+                                    <div id="ib-font-bike">
+                                        <b>Price :  </b>Rs<big> 600 </big>per day
+                                    </div>
+                                </div>
+                                <div class="col-md-5 col-xs-5 text-center" id="ib-display-1">
+                                    <a href="" id="ib-font-bike">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div id="ib-count">
+                                        <div id="ib-count-box">0 
+                                        </div>
+                                    </div>
+                                    <a href="" id="ib-font-bike">
+                                        <i class="fa fa-minus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="ib-margin-top" class="text-right">
+                                <span class="label label-warning" id="ib-font-bike-available">10 left</span>
+                            </div>
+                        </div>
+                    </div><!-- end of row ib-row1 -->
+
+                    <!-- bike entry -->
+                    <div class="row" id="ib-row1">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="text-center">
+                                <img src="assets/img/4.jpg" id="ib-bike-pic">
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h2 id="ib-font-bike-name">Avenger</h2>
+                            <div class="row" id="ib-row1">
+                                <div class="col-md-7 col-xs-7" id="ib-display-1">
+                                    <div id="ib-font-bike">
+                                        <b>Price :  </b>Rs<big> 600 </big>per day
+                                    </div>
+                                </div>
+                                <div class="col-md-5 col-xs-5 text-center" id="ib-display-1">
+                                    <a href="" id="ib-font-bike">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div id="ib-count">
+                                        <div id="ib-count-box">0 
+                                        </div>
+                                    </div>
+                                    <a href="" id="ib-font-bike">
+                                        <i class="fa fa-minus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="ib-margin-top" class="text-right">
+                                <span class="label label-warning" id="ib-font-bike-available">10 left</span>
+                            </div>
+                        </div>
+                    </div><!-- end of row ib-row1 -->
+
+                    <!-- bike entry -->
+                    <div class="row" id="ib-row1">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="text-center">
+                                <img src="assets/img/4.jpg" id="ib-bike-pic">
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h2 id="ib-font-bike-name">Avenger</h2>
+                            <div class="row" id="ib-row1">
+                                <div class="col-md-7 col-xs-7" id="ib-display-1">
+                                    <div id="ib-font-bike">
+                                        <b>Price :  </b>Rs<big> 600 </big>per day
+                                    </div>
+                                </div>
+                                <div class="col-md-5 col-xs-5 text-center" id="ib-display-1">
+                                    <a href="" id="ib-font-bike">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div id="ib-count">
+                                        <div id="ib-count-box">0 
+                                        </div>
+                                    </div>
+                                    <a href="" id="ib-font-bike">
+                                        <i class="fa fa-minus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="ib-margin-top" class="text-right">
+                                <span class="label label-warning" id="ib-font-bike-available">10 left</span>
+                            </div>
+                        </div>
+                    </div><!-- end of row ib-row1 -->
+
+                    <!-- bike entry -->
+                    <div class="row" id="ib-row1">
+                        <div class="col-md-5 col-xs-5">
+                            <div class="text-center">
+                                <img src="assets/img/4.jpg" id="ib-bike-pic">
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-xs-7">
+                            <h2 id="ib-font-bike-name">Avenger</h2>
+                            <div class="row" id="ib-row1">
+                                <div class="col-md-7 col-xs-7" id="ib-display-1">
+                                    <div id="ib-font-bike">
+                                        <b>Price :  </b>Rs<big> 600 </big>per day
+                                    </div>
+                                </div>
+                                <div class="col-md-5 col-xs-5 text-center" id="ib-display-1">
+                                    <a href="" id="ib-font-bike">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                    <div id="ib-count">
+                                        <div id="ib-count-box">0 
+                                        </div>
+                                    </div>
+                                    <a href="" id="ib-font-bike">
+                                        <i class="fa fa-minus"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div id="ib-margin-top" class="text-right">
+                                <span class="label label-warning" id="ib-font-bike-available">10 left</span>
+                            </div>
+                        </div>
+                    </div><!-- end of row ib-row1 -->
+                    <div class="text-center">
+                        <ul class="pagination pagination-warning">
+                            <li><a href="#" id="ib-font-bike-available"><</a></li>
+                            <li><a href="#" id="ib-font-bike-available">1</a></li>
+                            <li><a href="#" id="ib-font-bike-available">2</a></li>
+                            <li class="active"><a href="#" id="ib-font-bike-available">3</a></li>
+                            <li><a href="#" id="ib-font-bike-available">4</a></li>
+                            <li><a href="#" id="ib-font-bike-available">5</a></li>
+                            <li><a href="#" id="ib-font-bike-available">></a></li>
+                        </ul>
+                    </div>
+                
+                
+                </div>
+            </div><!-- end of main -->   
+        </div>
+        
+        <div class="col-md-5 col-xs-11">
+            <div class="main main-raised" id="ib-main-cart">
+                <div class="section text-center section-landing" id="ib-section">
+                    <div class="row" id="ib-row1">
+                        <div class="col-md-8 col-md-offset-2">
+                            <h2 class="title">Cart</h2>
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="ib-contain">
+                        <table class="table" id="ib-font-bike">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">#</th>
+                                    <th class="text-center">Bike</th>
+                                    <th class="text-center">Quantity</th>
+                                    <th class="text-center">Cost</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <!-- entry -->
+                                <tr>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">Avenger</td>
+                                    <td class="text-Center">2</td>
+                                    <td class="text-Center">600</td>
+                                    <td class="td-actions text-right">
+                                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
+                                            <i class="fa fa-times"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+
+                                <!-- entry -->
+                                <tr>
+                                    <td class="text-center">2</td>
+                                    <td class="text-center">Avenger</td>
+                                    <td class="text-Center">2</td>
+                                    <td class="text-Center">600</td>
+                                    <td class="td-actions text-right">
+                                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
+                                            <i class="fa fa-times"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+
+                                <!-- entry -->
+                                <tr>
+                                    <td class="text-center">3</td>
+                                    <td class="text-center">Avenger</td>
+                                    <td class="text-Center">2</td>
+                                    <td class="text-Center">600</td>
+                                    <td class="td-actions text-right">
+                                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
+                                            <i class="fa fa-times"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        
+                        <a href="#" class="btn btn-raised btn-success btn-lg">
+                            Proceed to Pay
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <footer class="footer">
+        <div class="container">
+            <nav class="pull-left">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            Instabike
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact-us.html">
+                            Contact Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">
+                            Team
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="copyright pull-right">
+                &copy; 2016, made with <i class="fa fa-heart heart"></i> by Instabike
+            </div>
+        </div>
+    </footer>
+    
+    
+    
+    
+    
+    <!-- Login Modal -->
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="card card-signup">
+                    <form class="form" method="" action="">
+                        <div class="header header-primary text-center">
+                            <h4>Sign Up</h4>
+                            <div class="social-line">
+                                <a href="#" class="btn btn-just-icon" id="social-line">
+                                    <i class="fa fa-facebook-square" id="ib-modal-social"></i>
+                                </a>
+                                <a href="#" class="btn btn-just-icon" id="social-line">
+                                    <i class="fa fa-twitter" id="ib-modal-social"></i>
+                                </a>
+                                <a href="#" class="btn btn-just-icon" id="social-line">
+                                    <i class="fa fa-google-plus" id="ib-modal-social"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="text-divider">Or Be Classical</p>
+                        <div class="content">
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="material-icons">face</i>
+                                </span>
+                                <input type="text" class="form-control" placeholder="First Name...">
+                            </div>
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="material-icons">email</i>
+                                </span>
+                                <input type="text" class="form-control" placeholder="Email...">
+                            </div>
+
+                            <div class="input-group">
+                                <span class="input-group-addon">
+                                    <i class="material-icons">lock_outline</i>
+                                </span>
+                                <input type="password" placeholder="Password..." class="form-control" />
+                            </div>
+
+                            
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox" name="optionsCheckboxes" checked>
+                                    Subscribe to newsletter
+                                </label>
+                            </div>
+                        </div>
+                        <div class="footer text-center">
+                            <a href="#" class="btn btn-raised btn-primary btn-wd btn-lg btn-instabike">Get Started</a>
+                        </div>
+                    </form>
+                </div>
+            </div><!-- end of modal-content -->
+        </div><!-- end of modal-dialog -->
+    </div><!-- modal fade -->
+    
+</body>
+	<!--   Core JS Files   -->
+	<script src="assets/js/jquery.min.js" type="text/javascript"></script>
+	<script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="assets/js/material.min.js"></script>
+
+	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+	<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+	<script src="assets/js/bootstrap-datepicker.js" type="text/javascript"></script>
+
+	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+	<script src="assets/js/material-kit.js" type="text/javascript"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/mainwow.js"></script>
+
+	<script type="text/javascript">
+
+		$().ready(function(){
+			// the body of this function is in assets/material-kit.js
+			materialKit.initSliders();
+			$(window).on('scroll', materialKit.checkScrollForTransparentNavbar);
+
+            window_width = $(window).width();
+
+            if (window_width >= 768){
+                big_image = $('.wrapper > .header');
+
+				$(window).on('scroll', materialKitDemo.checkScrollForParallax);
+			}
+
+		});
+	</script>
+</html>
