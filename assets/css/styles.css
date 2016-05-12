@@ -1,0 +1,476 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Ayush Jangra
+Updated: Jan 2016
+Notes:	 Hand coded for 
+
+*/
+
+/* --------------------------------------
+ A.  Layout
+ B.  Typography
+ C.  Navabr
+ D.  Carousel
+ E.  Global Styles
+ F.  Media Queries
+   -------------------------------------- */
+
+/* --------------------------------------
+ A.  Layout
+   -------------------------------------- */
+   
+
+select{
+    width: 150px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+.btn.btn-raised.btn-instabike{
+    background-color: #FFC153;
+    color: white;
+}
+.main{
+    z-index: 1020;
+}
+
+/* --------------------------------------
+ B.  Typography
+   -------------------------------------- */
+
+
+#ib-font{
+    font-weight: 100;
+}
+#ib-font-h2{
+    font-weight: 100;
+    font-size: 50px;
+}
+#ib-font-h5{
+    font-weight: 300;
+    font-size: 17px;
+}
+.description{
+    color: #808080;
+}
+#ib-font-center{
+    text-align: center;
+}
+
+/* --------------------------------------
+ C.  Navbar
+   -------------------------------------- */
+   
+#options{
+    padding: 0px 15px;
+}
+.navbar .navbar-nav > li > a {
+    padding-top: 10px;
+}
+#navigation-index{
+    color: black;
+}
+#options{
+    margin: 5px 0 0 0;
+}
+.logo img{
+    margin-left: 10px;
+}
+#wrapper-text{
+    color: #ffffff;
+}
+#wrapper-text h3{
+    color: white;
+    text-align: center;
+}
+.form-group.label-static label.control-label{
+    font-weight: 300;
+    font-size: 15px;
+    top: -40px;
+    color: white;
+}
+.form-control, .form-group .form-control{
+    background-color: #fff;
+}
+.navbar.navbar-transparent {
+    background-color: rgba(255,193,83,0.9);
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+} 
+.index-page .navbar-transparent {
+    padding-top: 6px;
+    padding-bottom: 0px;
+}
+.index-page .brand {
+    margin-top: 20vh;
+}
+.dropdown-menu {
+    z-index: 1025;
+}
+
+/* --------------------------------------
+ D.  Carousel
+   -------------------------------------- */
+
+#ib-carousel-bg{
+    background-image: url('../img/bg-1.jpg');
+    height: 590px;
+}
+#ib-carousel{
+    width: 271px;
+    height: 460px;
+}
+.carousel .carousel-indicators {
+    bottom: -70px;
+}
+.carousel .carousel-indicators li {
+    background: #f2f2f2;
+}
+#ib-app-slider{
+    text-align: center;
+}
+#wrapper-text-carousel{
+    color: white;
+}
+#ib-font-carousel-h1{
+    color: white;
+    font-weight: 100;
+    font-size: 42px;
+}
+#ib-content{
+    font-weight: 200;
+    font-size: 20px;
+}
+#ib-carousel-row{
+    margin-top: 50px;
+}
+#ib-modal-social{
+    font-size: 25px;
+}
+#social-line {
+    color: #FFFFFF;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#ib-profile-social{
+    color: #808080;
+    font-size: 19px;
+}
+#social-line-profile{
+    margin: 10px;
+}
+
+
+/* --------------------------------------
+ E.  Global Styles
+   -------------------------------------- */
+
+
+#carousel-arrow-left-white{
+  cursor: url("../img/arrow-left.png"), url("../img/arrow-left.cur"), default !important;
+}
+#carousel-arrow-right-white{
+  cursor: url("../img/arrow-right.png"), url("../img/arrow-right.cur"), default !important;
+}
+
+.sharing-area .btn-twitter {
+    background-color: #55acee;
+}
+.sharing-area .btn-facebook {
+    background-color: #3b5998;
+}
+.sharing-area .btn-google-plus {
+    background-color: #dd4b39;
+}
+.sharing-area .btn {
+    margin: 15px 4px 0;
+    color: #FFFFFF;
+}
+.sharing-area .btn-linked-in {
+    background-color: dodgerblue;
+}
+.fa-twitter{
+    font-size: 15px;
+}
+.fa-facebook-square{
+    font-size: 15px;
+}
+.fa-google-plus{
+    font-size: 15px;
+}
+.fa-linkedin{
+    font-size: 15px;
+}
+
+
+/* --------------------------------------
+ F.  CART PAGE
+   -------------------------------------- */
+
+#ib-row1{
+    margin: 0px;
+}
+#ib-align-right{
+    text-align: right;
+}
+#ib-bike-pic{
+    margin: 20px 0;
+    width: 20rem;
+    height: 20rem;
+}
+#ib-margin-top{
+    margin-top: 2.5rem;
+    margin-right: 60px;
+}
+#ib-display-1{
+    display: inline-flex;
+    margin: 1.25rem 0;
+}
+#ib-count{
+    margin: 0 15px;
+}
+#ib-count-box{
+    margin: 0 1.25rem;
+    font-size: 2.8rem
+}
+#ib-main{
+    margin: -60px -30px 30px 20px;
+}
+#ib-font-bike-name{
+    font-size: 30px;
+}
+#ib-font-bike{
+    font-size: 20px;
+}
+#ib-font-bike-available{
+    font-size: 1.5rem;
+}
+.main-fixed{
+    position: fixed;
+    top: 66.5rem;
+    right: 0.6875rem;
+    left: 85rem;
+    z-index: 1020;
+}
+#ib-contain{
+    margin: 0px 15px;
+}
+#ib-section{
+    padding: 40px 0px;
+}
+
+
+/* --------------------------------------
+ F.  Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+    .navbar .navbar-header{
+        padding: 13px 22px;
+        float: none;
+        width: 100%;
+    }
+    #ib-carousel{
+        width: 180px;
+        height: 300px;
+    }
+    #ib-font-carousel-h1 {
+        color: white;
+        font-weight: 100;
+        font-size: 24px;
+    }
+    #ib-content {
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 1.5rem;
+    }
+    #ib-carousel-bg{
+        background-image: url('../img/bg-1.jpg');
+        height: 490px;
+    }
+    #ib-modal-social{
+        font-size: 20px;
+    }
+    #navbar-collapse{
+        float: none;
+        width: 100%;
+        overflow-y: initial
+    }
+    .container>.navbar-collapse{
+        margin: 0px;
+    }
+    .navbar-collapse.in {
+        overflow-y: visible;
+    }
+    
+    
+    #ib-bike-pic {
+        margin: 20px 0;
+        width: 13rem;
+        height: 13rem;
+    }
+    #ib-font-bike-name{
+        font-size: 15px;
+    }
+    
+    
+}
+
+
+
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+    .navbar .navbar-header {
+        padding: 13px 22px;
+        float: none;
+        width: 100%;
+    }
+	.navbar.navbar-transparent{
+        background-color: rgba(255,193,83,0.8);
+        text-align: center;
+    }
+    select{
+        width: 30rem;
+    }
+    #navbar-collapse{
+        float: none;
+        width: 100%;
+        overflow-y: initial
+    }
+    
+    
+    #ib-bike-pic {
+        margin: 20px 0;
+        width: 21rem;
+        height: 21rem;
+    }
+    #ib-font-bike-name{
+        font-size: 30px;
+    }
+    #ib-main {
+        margin: -60px -30px 30px 20px;
+    }
+    #ib-main-cart{
+        margin: 0px;
+        margin-left: 20px;
+        margin-right: -30px;
+    }
+    
+    
+}
+
+
+
+@media (max-width: 480px) {
+    .navbar .navbar-header{
+        padding: 13px 22px;
+        float: none;
+        width: 100%;
+    }
+    #ib-google-play-store{
+        width: 116.5px;
+        height: 40px;
+    }
+    #ib-carousel{
+        width: 180px;
+        height: 300px;
+    }
+    #ib-font-carousel-h1 {
+        color: white;
+        font-weight: 100;
+        font-size: 24px;
+    }
+    #ib-carousel-top{
+        font-size: 25px;
+    }
+    #ib-carousel-index{
+        font-size: 15px;
+    }
+    #ib-content {
+        font-weight: 200;
+        font-size: 12px;
+        line-height: 1.5rem;
+    }
+    #ib-carousel-bg{
+        background-image: url('../img/bg-1.jpg');
+        height: 490px;
+    }
+    #ib-modal-social{
+        font-size: 20px;
+    }
+    #navbar-collapse{
+        float: none;
+        width: 100%;
+        overflow-y: initial
+    }
+    .container>.navbar-collapse{
+        margin: 0px;
+    }
+    .navbar-collapse.in {
+        overflow-y: visible;
+    }
+    
+    
+    #ib-bike-pic {
+        margin: 20px 0;
+        width: 13rem;
+        height: 13rem;
+    }
+    #ib-font-bike-name{
+        font-size: 22px;
+    }
+    #ib-font-bike{
+        font-size: 15px;
+    }
+    #ib-count{
+        margin: 0px;
+    }
+    #ib-count-box{
+        font-size: 20px;
+    }
+    #ib-margin-top {
+        margin-top: -2.5rem;
+        margin-right: 10px;
+    }
+    #ib-font-bike-available {
+    font-size: 10px;
+    }
+    #ib-main-cart{
+        margin: 0px;
+        margin-left: 20px;
+        margin-right: -30px;
+    }
+    #ib-font-h5 {
+        font-weight: 300;
+        font-size: 17px;
+        margin-left: -40px;
+    }
+    
+    
+    
+}
+
+
+@media (min-width: 1020px) {
+    
+    #ib-font-bike{
+        margin: 0px -7px;
+    }
+    
+
+	
+}
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    
+    #ib-font-bike{
+        margin: 0px 0px;
+    }
+	
+}
